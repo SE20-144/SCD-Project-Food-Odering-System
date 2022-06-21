@@ -12,7 +12,7 @@ public class Main {
         FoodCourt food = new FoodCourt(dishes);
         food.add();
 
-        System.out.println("Welcome to Library ");
+        System.out.println("Welcome to Food Court ");
         int i=0;
         while (i<1){
             synchronized (food) {
